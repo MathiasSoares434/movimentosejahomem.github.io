@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 189, 189);
+}
+
+.header{
+    padding: 50px 0;
+    color: rgb(185, 6, 6);
+    background: scroll url("img/chute2.jpg");
+    padding: 150px 0;
+    background-size: cover;
+    font-size: 40px;    
+    text-align: center;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+}
+.navbar{
+    width: 30%;
+    padding: 30px;
+    background-color: rgb(90, 11, 11);
+    color: rgb(0, 0, 0);
+}
+.perfil{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+
+}
+.content{
+    width: 70%;
+    background-color: rgb(121, 11, 11);
+    text-align: center;
+}
+.content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: rgb(165, 11, 11);
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(18, 124, 156);   
+    text-decoration: none
+}
+
+.me{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px 0px;
+    margin-left: 0px;
+    color: white;
+}
+.true{
+    margin-bottom: 20px;
+}
+.about{
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
